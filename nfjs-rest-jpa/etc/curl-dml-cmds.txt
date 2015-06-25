@@ -1,0 +1,16 @@
+curl http://localhost:8080
+
+curl http://localhost:8080/customers
+
+
+curl -i -X POST -H "Content-Type:application/json" -d \
+   '{  "firstName" : "Homer",  "lastName" : "Simpson", "email" : "homer@simpson.com" }' \
+   http://localhost:8080/customers
+
+   
+curl -i -X PATCH -H "Content-Type:application/json" -d \
+   '{  "email" : "homer@springfield-nuclear.com" }' \
+   http://localhost:8080/customers/1
+
+curl -X DELETE http://localhost:8080/customers/1
+   
