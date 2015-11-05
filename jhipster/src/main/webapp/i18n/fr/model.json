@@ -1,0 +1,21 @@
+{
+    "harleystoreApp": {
+        "model" : {
+            "home": {
+                "title": "Models",
+                "createLabel": "Créer un nouveau Model",
+                "createOrEditLabel": "Créer ou éditer un Model"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Model {{ id }} ?"
+            },
+            "detail": {
+                "title": "Model"
+            },
+            "name": "Name",
+            "price": "Price",
+            "family": "Family"
+        }
+    }
+}
+

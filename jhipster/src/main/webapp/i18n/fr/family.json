@@ -1,0 +1,20 @@
+{
+    "harleystoreApp": {
+        "family" : {
+            "home": {
+                "title": "Familys",
+                "createLabel": "Créer un nouveau Family",
+                "createOrEditLabel": "Créer ou éditer un Family"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Family {{ id }} ?"
+            },
+            "detail": {
+                "title": "Family"
+            },
+            "name": "Name",
+            "model": "Model"
+        }
+    }
+}
+
